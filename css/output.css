@@ -1,0 +1,27 @@
+.input {
+  display: grid;
+  justify-content: center;
+}
+
+form {
+  margin: 30px;
+}
+
+input {
+  width: 550px;
+  height: 40px;
+  padding: 25px 0px 25px 10px;
+  font-size: medium;
+}
+
+.wrapper {
+  display: grid;
+  justify-content: center;
+  grid-template-rows: repeat(3, 200px);
+  grid-template-columns: repeat(4, 200px);
+  grid-gap: 30px;
+  margin: auto;
+  max-width: 990px;
+}
+
+/*# sourceMappingURL=output.css.map */
